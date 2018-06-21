@@ -1,0 +1,11 @@
+#
+# Cookbook:: mangodb
+# Recipe:: default
+#
+# Copyright:: 2018, The Authors, All Rights Reserved.
+
+package 'mongodb-org'
+
+service 'mongodb-org' do
+  action [Now run the cookbook. To do so, we use the chef-client command and specify what's called the run-list.:start]
+ end
